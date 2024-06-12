@@ -1,0 +1,176 @@
+{
+    "data": [
+        {
+            "id": 2,
+            "isbn": "9797270777473",
+            "title": "Et exercitationem a dolorum sunt autem pariatur suscipit.",
+            "subtitle": null,
+            "author": "Monte Huel",
+            "published": null,
+            "publisher": "Predovic Ltd",
+            "pages": null,
+            "description": null,
+            "website": null,
+            "created_at": "2024-04-23T09:10:55.000000Z",
+            "updated_at": "2024-04-23T09:10:55.000000Z"
+        },
+        {
+            "id": 3,
+            "isbn": "9789079757749",
+            "title": "Voluptate nihil consequatur numquam eius saepe aut dolor quod.",
+            "subtitle": null,
+            "author": "Dr. Darius Wyman Jr.",
+            "published": null,
+            "publisher": "Weber-Rosenbaum",
+            "pages": null,
+            "description": null,
+            "website": null,
+            "created_at": "2024-04-23T09:10:55.000000Z",
+            "updated_at": "2024-04-23T09:10:55.000000Z"
+        },
+        {
+            "id": 4,
+            "isbn": "9797510894434",
+            "title": "Nihil iusto aliquid nam voluptates harum voluptatum dolorem.",
+            "subtitle": null,
+            "author": "Dagmar Rice",
+            "published": null,
+            "publisher": "Robel, Sanford and DuBuque",
+            "pages": null,
+            "description": null,
+            "website": null,
+            "created_at": "2024-04-23T09:10:55.000000Z",
+            "updated_at": "2024-04-23T09:10:55.000000Z"
+        },
+        {
+            "id": 5,
+            "isbn": "9798830460217",
+            "title": "Dicta sint cum a.",
+            "subtitle": null,
+            "author": "Remington Schoen",
+            "published": null,
+            "publisher": "Gleichner Inc",
+            "pages": null,
+            "description": null,
+            "website": null,
+            "created_at": "2024-04-23T09:10:55.000000Z",
+            "updated_at": "2024-04-23T09:10:55.000000Z"
+        },
+        {
+            "id": 6,
+            "isbn": "9780086665966",
+            "title": "Labore quis error doloribus culpa dolorem.",
+            "subtitle": null,
+            "author": "Kacie Mayer",
+            "published": null,
+            "publisher": "Marks-Pollich",
+            "pages": null,
+            "description": null,
+            "website": null,
+            "created_at": "2024-04-23T09:10:55.000000Z",
+            "updated_at": "2024-04-23T09:10:55.000000Z"
+        },
+        {
+            "id": 7,
+            "isbn": "9795732873251",
+            "title": "Accusamus enim voluptas sint qui dolore iure.",
+            "subtitle": null,
+            "author": "Dayne Steuber Jr.",
+            "published": null,
+            "publisher": "O'Hara, Rice and Bernier",
+            "pages": null,
+            "description": null,
+            "website": null,
+            "created_at": "2024-04-23T09:10:55.000000Z",
+            "updated_at": "2024-04-23T09:10:55.000000Z"
+        },
+        {
+            "id": 8,
+            "isbn": "9795030599280",
+            "title": "Libero est sint nesciunt et corporis eos.",
+            "subtitle": null,
+            "author": "Eliseo Thompson",
+            "published": null,
+            "publisher": "Fisher-Johnston",
+            "pages": null,
+            "description": null,
+            "website": null,
+            "created_at": "2024-04-23T09:10:55.000000Z",
+            "updated_at": "2024-04-23T09:10:55.000000Z"
+        },
+        {
+            "id": 9,
+            "isbn": "9799102495760",
+            "title": "Sint blanditiis rem et.",
+            "subtitle": null,
+            "author": "Prof. Maynard Lueilwitz Sr.",
+            "published": null,
+            "publisher": "Lind-Haag",
+            "pages": null,
+            "description": null,
+            "website": null,
+            "created_at": "2024-04-23T09:10:55.000000Z",
+            "updated_at": "2024-04-23T09:10:55.000000Z"
+        },
+        {
+            "id": 10,
+            "isbn": "9798851122392",
+            "title": "Ut est et et.",
+            "subtitle": null,
+            "author": "Breanna Ernser",
+            "published": null,
+            "publisher": "Schimmel-Koepp",
+            "pages": null,
+            "description": null,
+            "website": null,
+            "created_at": "2024-04-23T09:10:55.000000Z",
+            "updated_at": "2024-04-23T09:10:55.000000Z"
+        },
+        {
+            "id": 11,
+            "isbn": "9786625854730",
+            "title": "Velit repudiandae veniam itaque numquam culpa distinctio ea.",
+            "subtitle": null,
+            "author": "Jaydon Abshire",
+            "published": null,
+            "publisher": "McDermott, Block and Kling",
+            "pages": null,
+            "description": null,
+            "website": null,
+            "created_at": "2024-04-23T09:10:55.000000Z",
+            "updated_at": "2024-04-23T09:10:55.000000Z"
+        }
+    ],
+    "links": {
+        "first": "http://api-app.test/api/books?page=1",
+        "last": "http://api-app.test/api/books?page=1",
+        "prev": null,
+        "next": null
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 1,
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "http://api-app.test/api/books?page=1",
+                "label": "1",
+                "active": true
+            },
+            {
+                "url": null,
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "path": "http://api-app.test/api/books",
+        "per_page": 10,
+        "to": 10,
+        "total": 10
+    }
+}
