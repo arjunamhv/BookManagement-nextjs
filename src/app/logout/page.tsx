@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 import LogoutAction from "./logoutaction";
 
-export default function logout() {
+export default function Logout() {
   useEffect(() => {
     LogoutAction();
   }, []);
