@@ -12,7 +12,7 @@ type Book = {
   description: string;
   website: string;
 };
-async function GET({ params }: { params: { book_id: string } }) {
+async function GETBook({ params }: { params: { book_id: string } }) {
   const Swal = require("sweetalert2");
   const token = cookies()?.get("token")?.value ?? "";
   const res = await fetch(`http://api-app.test/api/books/${params.book_id}`, {
@@ -45,7 +45,7 @@ export default async function BookDetail({
 }: {
   params: { book_id: string };
 }) {
-  const response = await GET({ params: { book_id: params.book_id } });
+  const response = await GETBook({ params: { book_id: params.book_id } });
   const book: Book = response.data;
   return (
     <div className="m-10">
