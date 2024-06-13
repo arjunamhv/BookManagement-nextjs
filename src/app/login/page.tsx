@@ -100,14 +100,14 @@ export default function Login() {
                         {!isMutating ? (
                             <button type="submit" className="flex w-full justify-center btn btn-primary">Login</button>
                         ) : (
-                            <div className='flex w-full justify-center'>
+                            <div className="flex w-full justify-center">
                                 <button type="button" className="mx-auto btn loading">Login</button>
                             </div>
                         )}
                     </div>
                 </form>
                 <p className="mt-10 text-center text-sm text-gray-500">
-                    Don't have an account yet?
+                    Not have an account yet?
                     <a href="/register" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"> Register here</a>
                 </p>
             </div>
