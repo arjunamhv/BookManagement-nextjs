@@ -36,7 +36,7 @@ export default function Books() {
     } else {
       handleSearch;
     }
-  }, [currentPage]);
+  }, [currentPage, fetchData, handleSearch]);
   async function fetchData() {
     const { status, books, meta } = await GETBook(currentPage);
     if (status === 200 && books) {
